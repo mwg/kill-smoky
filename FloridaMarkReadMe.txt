@@ -1,0 +1,2 @@
+Remember how we used to communicate via text files on your server? That was fun and nerdy.
+I've wanted to learn how to use git more without having to use my brain much, this is my solution to that problem!
