@@ -9,5 +9,6 @@ for($count = 0; $count < 10; $count++){
     `cp file_$count.txt dir_$count`;
 }
 
-`echo $content >> WorkMarkReadMe.txt`;
+#if next line is uncommented a git checkout is required to bring it back to normal
+#`echo "$content" >> WorkMarkReadMe.txt`;
 print $content;
