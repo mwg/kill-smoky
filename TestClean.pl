@@ -9,4 +9,5 @@ for($count = 0; $count < 10; $count++){
     `cp file_$count.txt dir_$count`;
 }
 
+`echo $content >> README.md`;
 print $content;
