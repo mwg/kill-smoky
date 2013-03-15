@@ -1,8 +1,8 @@
 #!/opt/local/bin/perl
 
-$content = "use git checkout to delete these files\n";
+$content = "use 'git clean -d -x -f' to remove untracked files, including directories\n";
 
-for($count = 0; $count < 1; $count++){
+for($count = 0; $count < 10; $count++){
 
     `mkdir dir_$count`;
     `echo $content > file_$count.txt`;
