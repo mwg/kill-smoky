@@ -1,0 +1,9 @@
+oneline logs
+git log --pretty=oneline
+
+show parent of merges/commit in detail
+git show <hash>
+
+revert merge
+git revert -m 1 <hash>
+(assumes 1st parent is what you want to revert to)
