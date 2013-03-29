@@ -10,3 +10,9 @@ git revert -m 1 <hash>
 
 merge without committing changes
 git merge <branch> --no-ff --no-commit
+
+create patch using git diff
+git diff --no-prefix <branch> <file> > patchfile
+
+apply patch
+patch -p0 < patchfile
