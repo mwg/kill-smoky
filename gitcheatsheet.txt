@@ -7,3 +7,6 @@ git show <hash>
 revert merge
 git revert -m 1 <hash>
 (assumes 1st parent is what you want to revert to)
+
+merge without committing changes
+git merge <branch> --no-ff --no-commit
