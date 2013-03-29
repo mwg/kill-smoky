@@ -5,7 +5,7 @@ use strict;
 print "Removing untracked files...\n";
 `git clean -d -x -f`;
 
-print "Reverting modified files...\n";
+print "Reverting unstages modified files...\n";
 my @gitstatus = `git status`;
 
 foreach my $line (@gitstatus){
