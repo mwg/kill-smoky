@@ -16,3 +16,6 @@ git diff --no-prefix <branch> <file> > patchfile
 
 apply patch
 patch -p0 < patchfile
+
+revert file after commit
+git checkout <hash of previous commit to revert to> <file to revert>
